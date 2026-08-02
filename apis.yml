@@ -1,8 +1,13 @@
 aid: sustaincert
 name: SustainCERT
-description: 'SustainCERT is a company surfaced as a portfolio company of partech and added to the API
-  Evangelist network as a stub for enrichment. Sector: Climate. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'SustainCERT is an independent, digitally-enabled climate impact verification
+  company. It provides third-party validation and verification for carbon-market projects,
+  corporate greenhouse-gas inventories and climate reporting, value-chain (Scope 3)
+  decarbonization claims, and digital monitoring, reporting and verification (DMRV)
+  for renewable energy and product carbon footprints. Customers work through the
+  SustainCERT web platform; the company exposes no public developer API surface at
+  this time. Added to the API Evangelist network from the Partech portfolio and
+  enriched with domain-security probes and identity metadata.'
 url: https://raw.githubusercontent.com/api-evangelist/sustaincert/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,29 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://sustain-cert.com/favicon.ico
 tags:
 - Company
 - Climate
+- Carbon Markets
+- Verification
+- Sustainability
+- Carbon Credits
+- MRV
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,20 @@ maintainers:
 common:
 - type: Website
   url: https://sustain-cert.com/
+- type: Login
+  url: https://platform.sustain-cert.com
+- type: Support
+  url: https://sustain-cert.com/contact-us
+- type: Blog
+  url: https://sustain-cert.com/news
+- type: PrivacyPolicy
+  url: https://sustain-cert.com/privacy-policy
+- type: TermsOfService
+  url: https://sustain-cert.com/terms-and-conditions
+- type: DomainSecurity
+  url: security/sustaincert-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
